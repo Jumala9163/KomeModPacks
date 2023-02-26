@@ -1,10 +1,10 @@
 {
   "meta": {
-    "rss": "https://raw.githubusercontent.com/TeamKun/NumaPacks/news/news.rss",
+    "rss": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/news/news.rss",
     "discord": {
-      "clientId": "784714976329596938",
-      "smallImageText": "沼ランチャー",
-      "smallImageKey": "pack_numa"
+      "clientId": "1079280155580694600",
+      "smallImageText": "KomeModLauncher",
+      "smallImageKey": "pack_kome"
     }
   }
 }
