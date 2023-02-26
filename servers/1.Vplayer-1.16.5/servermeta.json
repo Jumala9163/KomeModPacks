@@ -1,0 +1,20 @@
+{
+	"$schema": "file:///E:/softdata/git/KomeModPacks/schemas/ServerMetaSchema.schema.json",
+	"meta": {
+		"version": "1.0.0",
+		"name": "%0%Vplayer-1.16.5 (Minecraft 1.16.5)",
+		"description": "動画鑑賞が出来るModが導入されています",
+		"address": "",
+		"discord": {
+			"shortId": "Minecraft",
+			"largeImageText": "Minecraft",
+			"largeImageKey": "pack_v"
+		},
+		"mainServer": false,
+		"autoconnect": false
+	},
+	"forge": {
+		"version": "36.2.20"
+	},
+	"untrackedFiles": []
+}

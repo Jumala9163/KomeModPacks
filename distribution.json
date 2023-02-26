@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "rss": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/news/news.rss",
+  "discord": {
+    "clientId": "1079280155580694600",
+    "smallImageText": "KomeModLauncher",
+    "smallImageKey": "pack_kome"
+  },
+  "servers": [
+    {
+      "id": "1.Vplayer-1.16.5",
+      "name": "%0%Vplayer-1.16.5 (Minecraft 1.16.5)",
+      "description": "動画鑑賞が出来るModが導入されています",
+      "icon": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/1.Vplayer-1.16.5/pack.png",
+      "version": "1.0.0",
+      "address": "",
+      "minecraftVersion": "1.16.5",
+      "discord": {
+        "shortId": "Minecraft",
+        "largeImageText": "Minecraft",
+        "largeImageKey": "pack_v"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.16.5-36.2.20:installer",
+          "name": "Minecraft Forge (installer)",
+          "type": "Forge",
+          "artifact": {
+            "size": 7390346,
+            "MD5": "6298276cc9396bb1b2d8526b1ee0e8c5",
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/repo/lib/net/minecraftforge/forge/1.16.5-36.2.20/forge-1.16.5-36.2.20-installer.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "net.kunmc.lab:vplayer:1.3-1.16.5-SNAPSHOT@jar",
+          "name": "VideoPlayer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 41076744,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/1.Vplayer-1.16.5/forgemods/optionalon/vplayer-1.3-1.16.5-SNAPSHOT-all.jar",
+            "MD5": "7ebcb4fcda1a20e3bf54bb4bbcd01724"
+          },
+          "required": {
+            "value": true
+          }
+        },
+        {
+          "id": "me.axieum.mcmod.authme:authme-1.16.3-1.4.0@jar",
+          "name": "AuthMe",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 590330,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/1.Vplayer-1.16.5/forgemods/optionalon/authme-1.16.3-1.4.0.jar",
+            "MD5": "8EECF56E700F1F5234009F238C5A4415"
+          },
+          "required": {
+            "value": false
+          }
+        }
+      ]
+    }
+  ]
+}
