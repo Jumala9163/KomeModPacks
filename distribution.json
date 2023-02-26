@@ -12,25 +12,25 @@
       "name": "%0%Vplayer-1.16.5 (Minecraft 1.16.5)",
       "description": "動画鑑賞が出来るModが導入されています",
       "icon": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/1.Vplayer-1.16.5/pack.png",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "address": "",
       "minecraftVersion": "1.16.5",
       "discord": {
-        "shortId": "Minecraft",
-        "largeImageText": "Minecraft",
+        "shortId": "KomeModLauncher",
+        "largeImageText": "VplayerMod",
         "largeImageKey": "pack_v"
       },
       "mainServer": false,
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:forge:1.16.5-36.2.20:installer",
+          "id": "net.minecraftforge:forge:1.16.5-36.2.34:installer",
           "name": "Minecraft Forge (installer)",
           "type": "Forge",
           "artifact": {
-            "size": 7390346,
-            "MD5": "6298276cc9396bb1b2d8526b1ee0e8c5",
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/repo/lib/net/minecraftforge/forge/1.16.5-36.2.20/forge-1.16.5-36.2.20-installer.jar"
+            "size": 7947907,
+            "MD5": "D6CCFB3B5AB20BBE021FE243B8CA773C",
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/repo/lib/net/minecraftforge/forge/1.16.5-36.2.34/forge-1.16.5-36.2.34-installer.jar"
           },
           "subModules": []
         },
@@ -48,13 +48,13 @@
           }
         },
         {
-          "id": "me.axieum.mcmod.authme:authme-1.16.3-1.4.0@jar",
-          "name": "AuthMe",
+          "id": "technicianlp.reauth:ReAuth-1.16-Forge-4.0.7@jar",
+          "name": "ReAuth",
           "type": "ForgeMod",
           "artifact": {
-            "size": 590330,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/1.Vplayer-1.16.5/forgemods/optionalon/authme-1.16.3-1.4.0.jar",
-            "MD5": "8EECF56E700F1F5234009F238C5A4415"
+            "size": 169698,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/1.Vplayer-1.16.5/forgemods/optionalon/ReAuth-1.16-Forge-4.0.7.jar",
+            "MD5": "7270E3AB226B205DEDF9DE05321353C9"
           },
           "required": {
             "value": false
