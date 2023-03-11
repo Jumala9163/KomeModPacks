@@ -29,10 +29,23 @@
           "type": "Forge",
           "artifact": {
             "size": 7947907,
-            "MD5": "D6CCFB3B5AB20BBE021FE243B8CA773C",
+            "MD5": "d6ccfb3b5ab20bbe021fe243b8ca773c",
             "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/repo/lib/net/minecraftforge/forge/1.16.5-36.2.34/forge-1.16.5-36.2.34-installer.jar"
           },
           "subModules": []
+        },
+        {
+          "id": "technicianlp.reauth:reauth:4.0.7@jar",
+          "name": "ReAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 169698,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/1.Vplayer-1.16.5/forgemods/optionalon/ReAuth-1.16-Forge-4.0.7.jar",
+            "MD5": "7270e3ab226b205dedf9de05321353c9"
+          },
+          "required": {
+            "value": false
+          }
         },
         {
           "id": "net.kunmc.lab:vplayer:1.3-1.16.5-SNAPSHOT@jar",
@@ -42,22 +55,6 @@
             "size": 41076744,
             "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/1.Vplayer-1.16.5/forgemods/required/vplayer-1.3-1.16.5-SNAPSHOT-all.jar",
             "MD5": "7ebcb4fcda1a20e3bf54bb4bbcd01724"
-          },
-          "required": {
-            "value": true
-          }
-        },
-        {
-          "id": "technicianlp.reauth:ReAuth-1.16-Forge-4.0.7@jar",
-          "name": "ReAuth",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 169698,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/1.Vplayer-1.16.5/forgemods/optionalon/ReAuth-1.16-Forge-4.0.7.jar",
-            "MD5": "7270E3AB226B205DEDF9DE05321353C9"
-          },
-          "required": {
-            "value": false
           }
         }
       ]
@@ -84,230 +81,213 @@
           "type": "Forge",
           "artifact": {
             "size": 6883740,
-            "MD5": "481FD1D824502C4443E611A6347A1BDF",
+            "MD5": "481fd1d824502c4443e611a6347a1bdf",
             "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/repo/lib/net/minecraftforge/forge/1.19.2-43.2.0/forge-1.19.2-43.2.0-installer.jar"
           },
           "subModules": []
         },
         {
-          "id": "net.darkhax.bookshelf:Bookshelf-Forge-1.19.2-16.2.17@jar",
-          "name": "Bookshelf",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 319496,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/2.Create-1.19.2/forgemods/required/Bookshelf-Forge-1.19.2-16.2.17.jar",
-            "MD5": "37EA30B7B711138C35ECF32DDE7CB52C"
-          },
-          "required": {
-            "value": true
-          }
-        },
-        {
-          "id": "de.maxhenkel.corpse:corpse-1.19.2-1.0.0@jar",
-          "name": "Corpse",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 220543,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/2.Create-1.19.2/forgemods/required/corpse-1.19.2-1.0.0.jar",
-            "MD5": "48C6552127E8AA4A6BA9B9D75AABBF6F"
-          },
-          "required": {
-            "value": true
-          }
-        },
-        {
-          "id": "com.simibubi.create:create-1.19.2-0.5.0.i@jar",
-          "name": "Create",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 13808628,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/2.Create-1.19.2/forgemods/required/create-1.19.2-0.5.0.i.jar",
-            "MD5": "B4C336A51C1CCB578917EFBA4322A44B"
-          },
-          "required": {
-            "value": true
-          }
-        },
-        {
-          "id": "com.jozufozu.flywheel:flywheel-forge-1.19.2-0.6.8.a@jar",
-          "name": "Flywheel",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 551209,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/2.Create-1.19.2/forgemods/required/flywheel-forge-1.19.2-0.6.8.a.jar",
-            "MD5": "0052ED4EE7075110EFF6C005A2FE44D8"
-          },
-          "required": {
-            "value": true
-          }
-        },
-        {
-          "id": "ru.vidtu.ias:InGameAccountSwitcher-Forge-1.19-8.0.1@jar",
-          "name": "InGameAccountSwitcher",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 183991,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/2.Create-1.19.2/forgemods/required/InGameAccountSwitcher-Forge-1.19-8.0.1.jar",
-            "MD5": "81D47D99DB667299D449031EA9C8BF59"
-          },
-          "required": {
-            "value": true
-          }
-        },
-        {
-          "id": "mezz.jei:jei-1.19.2-forge-11.6.0.1011@jar",
-          "name": "JEI",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1088959,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/2.Create-1.19.2/forgemods/required/jei-1.19.2-forge-11.6.0.1011.jar",
-            "MD5": "25E4C4A21AAADFF0A8E2FD7D12D7CFE1"
-          },
-          "required": {
-            "value": true
-          }
-        },
-        {
-          "id": "mezz.jei:journeymap-1.19.2-5.9.3-forge@jar",
-          "name": "JourneyMap",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 7004284,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/2.Create-1.19.2/forgemods/required/journeymap-1.19.2-5.9.3-forge.jar",
-            "MD5": "5E6BC67DC2E5F6535D09ECA18F1A9F9C"
-          },
-          "required": {
-            "value": true
-          }
-        },
-        {
-          "id": "com.aizistral.nochatreports:NoChatReports-FORGE-1.19.2-v1.5.1@jar",
-          "name": "NoChatReports",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 204615,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/2.Create-1.19.2/forgemods/required/NoChatReports-FORGE-1.19.2-v1.5.1.jar",
-            "MD5": "05DCB9BF88CD31A942EA8B686DDCA0DE"
-          },
-          "required": {
-            "value": true
-          }
-        },
-        {
-          "id": "com.sk89q.worldedit:worldedit-mod-7.2.12@jar",
-          "name": "WorldEdit",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 5650155,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/2.Create-1.19.2/forgemods/required/worldedit-mod-7.2.12.jar",
-            "MD5": "35923B44D8E81AF4CB310B578F689B73"
-          },
-          "required": {
-            "value": true
-          }
-        },
-        {
-          "id": "squeek.appleskin:appleskin-forge-mc1.19-2.4.2@jar",
+          "id": "squeek.appleskin:appleskin:2.4.2+mc1.19@jar",
           "name": "AppleSkin",
           "type": "ForgeMod",
           "artifact": {
             "size": 46991,
             "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/2.Create-1.19.2/forgemods/optionalon/appleskin-forge-mc1.19-2.4.2.jar",
-            "MD5": "3CD43C763F6E9A244A115606FAAECF4F"
+            "MD5": "3cd43c763f6e9a244a115606faaecf4f"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "com.blamejared.controlling:Controlling-forge-1.19.2-10.0+7@jar",
+          "id": "net.darkhax:bookshelf:16.2.17@jar",
+          "name": "Bookshelf",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 319496,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/2.Create-1.19.2/forgemods/required/Bookshelf-Forge-1.19.2-16.2.17.jar",
+            "MD5": "37ea30b7b711138c35ecf32dde7cb52c"
+          }
+        },
+        {
+          "id": "com.blamejared:controlling:10.0+7@jar",
           "name": "Controlling",
           "type": "ForgeMod",
           "artifact": {
             "size": 117659,
             "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/2.Create-1.19.2/forgemods/optionalon/Controlling-forge-1.19.2-10.0+7.jar",
-            "MD5": "A1806659C98D659F6DAAD51A6673671A"
+            "MD5": "a1806659c98d659f6daad51a6673671a"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "snownee.jade:Jade-1.19.1-forge-8.8.0@jar",
+          "id": "de.maxhenkel:corpse:1.19.2-1.0.0@jar",
+          "name": "Corpse",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 220543,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/2.Create-1.19.2/forgemods/required/corpse-1.19.2-1.0.0.jar",
+            "MD5": "48c6552127e8aa4a6ba9b9d75aabbf6f"
+          }
+        },
+        {
+          "id": "com.simibubi:create:0.5.0.i@jar",
+          "name": "Create",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13808628,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/2.Create-1.19.2/forgemods/required/create-1.19.2-0.5.0.i.jar",
+            "MD5": "b4c336a51c1ccb578917efba4322a44b"
+          }
+        },
+        {
+          "id": "com.jozufozu:flywheel:0.6.8.a@jar",
+          "name": "Flywheel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 551209,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/2.Create-1.19.2/forgemods/required/flywheel-forge-1.19.2-0.6.8.a.jar",
+            "MD5": "0052ed4ee7075110eff6c005a2fe44d8"
+          }
+        },
+        {
+          "id": "the_fireplace.ias:ias:8.0.1@jar",
+          "name": "In-Game Account Switcher",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 183991,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/2.Create-1.19.2/forgemods/required/InGameAccountSwitcher-Forge-1.19-8.0.1.jar",
+            "MD5": "81d47d99db667299d449031ea9c8bf59"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:8.8.0@jar",
           "name": "Jade",
           "type": "ForgeMod",
           "artifact": {
             "size": 418649,
             "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/2.Create-1.19.2/forgemods/optionalon/Jade-1.19.1-forge-8.8.0.jar",
-            "MD5": "E72AE92B22E275CA968DD5E9C83CD81D"
+            "MD5": "e72ae92b22e275ca968dd5e9c83cd81d"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "yalter.mousetweaks:MouseTweaks-forge-mc1.19-2.23@jar",
-          "name": "MouseTweaks",
+          "id": "mezz.jei:jei:11.6.0.1011@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1088959,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/2.Create-1.19.2/forgemods/required/jei-1.19.2-forge-11.6.0.1011.jar",
+            "MD5": "25e4c4a21aaadff0a8e2fd7d12d7cfe1"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.9.3@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7004284,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/2.Create-1.19.2/forgemods/required/journeymap-1.19.2-5.9.3-forge.jar",
+            "MD5": "5e6bc67dc2e5f6535d09eca18f1a9f9c"
+          }
+        },
+        {
+          "id": "generated.forgemod:memoryleakfix:1.19.3-0.8.0@jar",
+          "name": "Memoryleakfix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 33851,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/2.Create-1.19.2/forgemods/required/memoryleakfix-1.19.3-0.8.0.jar",
+            "MD5": "f6076e7b530d97afc924ad39bb8a5b55"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.23@jar",
+          "name": "Mouse Tweaks",
           "type": "ForgeMod",
           "artifact": {
             "size": 75983,
             "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/2.Create-1.19.2/forgemods/optionalon/MouseTweaks-forge-mc1.19-2.23.jar",
-            "MD5": "855222F31F7A2EBFE84CD57480B9E011"
+            "MD5": "855222f31f7a2ebfe84cd57480b9e011"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "me.jellysquid.mods.lithium:radium-0.8.2@jar",
+          "id": "com.aizistral:nochatreports:1.19.2-v1.5.1@jar",
+          "name": "No Chat Reports",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 204615,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/2.Create-1.19.2/forgemods/required/NoChatReports-FORGE-1.19.2-v1.5.1.jar",
+            "MD5": "05dcb9bf88cd31a942ea8b686ddca0de"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.lithium:radium:0.8.2@jar",
           "name": "Radium",
           "type": "ForgeMod",
           "artifact": {
             "size": 511586,
             "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/2.Create-1.19.2/forgemods/optionalon/radium-0.8.2.jar",
-            "MD5": "C764D38F2E1D1293F705449CB6F485BF"
+            "MD5": "c764d38f2e1d1293f705449cb6f485bf"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "net.caffeinemc.phosphor:radon-0.8.2@jar",
+          "id": "net.caffeinemc.phosphor:radon:0.8.2@jar",
           "name": "Radon",
           "type": "ForgeMod",
           "artifact": {
             "size": 98778,
             "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/2.Create-1.19.2/forgemods/optionalon/radon-0.8.2.jar",
-            "MD5": "E92C2682FB7208F12C9409A68B12A20D"
+            "MD5": "e92c2682fb7208f12c9409a68b12a20d"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "me.jellysquid.mods.sodium:rubidium-0.6.2@jar",
+          "id": "me.jellysquid.mods.sodium.client:rubidium:0.6.2@jar",
           "name": "Rubidium",
           "type": "ForgeMod",
           "artifact": {
             "size": 1369128,
             "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/2.Create-1.19.2/forgemods/optionalon/rubidium-0.6.2.jar",
-            "MD5": "14FDF4A1243346F7073CE135D4901A39"
+            "MD5": "14fdf4a1243346f7073ce135d4901a39"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "net.darkhax.toolstats:ToolStats-Forge-1.19.2-12.0.2@jar",
+          "id": "net.darkhax:toolstats:12.0.2@jar",
           "name": "ToolStats",
           "type": "ForgeMod",
           "artifact": {
             "size": 18968,
             "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/2.Create-1.19.2/forgemods/optionalon/ToolStats-Forge-1.19.2-12.0.2.jar",
-            "MD5": "586DCC3243BA2665EDF0C41439426009"
+            "MD5": "586dcc3243ba2665edf0c41439426009"
           },
           "required": {
             "value": false
+          }
+        },
+        {
+          "id": "com.sk89q:worldedit:7.2.12+6240-87f4ae1@jar",
+          "name": "WorldEdit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5650155,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomeModPacks/deploy/servers/2.Create-1.19.2/forgemods/required/worldedit-mod-7.2.12.jar",
+            "MD5": "35923b44d8e81af4cb310b578f689b73"
           }
         }
       ]
